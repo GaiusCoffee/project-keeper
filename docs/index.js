@@ -5,18 +5,21 @@ class gameLoader{
     onDeviceReady(){
         head.load(
             [
+                "js/chance.min.js",
                 "js/phaser.min.js",
+                "game/enums.js",
                 "game/engine.js",
                 "game/states/screenTitle.js",
                 "game/states/screenGame.js",
-                "game/states/screenBattle.js"
+                "game/states/screenBattle.js",
+                "game/data/debug.js"            // <-- Remove on PROD
             ], ()=>{
-                this.Engine = new engine();
+                this.e = new engine();
                 document.addEventListener('pause', ()=>{
-                    this.Engine.pause();
+                    this.e.pause();
                 }, false);
                 document.addEventListener('resume', ()=>{
-                    this.Engine.resume();
+                    this.e.resume();
                 }, false);
                 document.getElementById('app').setAttribute('style', 'display:none;');
                 document.getElementById('game').setAttribute('style', 'display:table;');

@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="coffee.gaius.blitzduel" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Blitz Duel</name>
-    <description>
-        Blitz Duel is a fast-paced online multiplayer collectible card game.
-    </description>
+<widget id="coffee.gaius.project-keeper" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Project Keeper</name>
+    <description />
     <author email="gaius.coffee@gmail.com" href="http://gaius.coffee">
         Gaius Coffee
     </author>
